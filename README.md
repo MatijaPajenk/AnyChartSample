@@ -83,7 +83,7 @@ data.add(CategoryValueDataEntry("Mountain Climbers", "Abs", 210))
 tagCloud.data(data)
 ```
 
-<div style="display: flex; gap: 1rem">
+<div style="display: flex; gap: 3rem">
     <img src="./images/tag_cloud_1.jpg" alt="Tag Cloud" width="300"/>
     <img src="./images/tag_cloud_2.jpg" alt="Tag Cloud" width="300"/>
 </div>
@@ -150,7 +150,7 @@ legsLine.markers()
 radar.tooltip().format("Value: {%Value}")
 ```
 
-<div style="display: flex; gap: 1rem">
+<div style="display: flex; gap: 3rem">
     <img src="./images/radar_1.jpg" alt="Tag Cloud" width="300"/>
     <img src="./images/radar_2.jpg" alt="Tag Cloud" width="300"/>
 </div>
