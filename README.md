@@ -1,26 +1,36 @@
-# AnyChartSample
+# AnyChartSample 📈
 
-# Zakaj
+## Zakaj? 🤔
 
-AnyChart Android Chart je knjižnica za vizualizacijo podatkov za
+[AnyChart Android Chart](https://github.com/AnyChart/AnyChart-Android) je knjižnica za vizualizacijo podatkov za
 preprosto ustvarjanje interaktivnih grafikonov v aplikacijah za Android.
 Deluje na API-ju 19+ (Android 4.4) in ima na desetine vgrajenih vrst grafikonov.
+Knjižnico sem izbral zaradi zanimivega načina prikaza podatkov in enostavne uporabe.
 
-# Prednosti
+## Prednosti ✅
 
 - Enostavna uporaba
 - Podpira več vrst grafikonov
 - Podpira interaktivne funkcije
+- Zanimiv način prikaza podatkov
 
-# Slabosti
+## Slabosti ❌
 
 - Zadnja sprememba pred enim letom
+- Številni odprti issue-ji
 
-# Licenca
+## Licenca 📜
 
 [© AnyChart.com - JavaScript charts](https://www.anychart.com/)
 
-# Število zvezdic, sledilcev, forkov
+### Is AnyChart free? 
+
+"The **source is open** but the license is not free, you have to obtain a license for a fee for **commercial applications**. 
+Also, AnyChart offers educational and non-profit licenses for our Web Charting Components.
+The trial version will work as long as you need it, we don't put any time limitations on our trials."
+
+
+## Število zvezdic, sledilcev, forkov
 
 ![GitHub stars](https://img.shields.io/github/stars/AnyChart/AnyChart-Android?style=social)
 
@@ -28,7 +38,7 @@ Deluje na API-ju 19+ (Android 4.4) in ima na desetine vgrajenih vrst grafikonov.
 
 ![GitHub forks](https://img.shields.io/github/forks/AnyChart/AnyChart-Android?style=social)
 
-# Vzdrževanje projekta
+## Vzdrževanje projekta 🛠️
 
 Projekt je bil nazadnje posodobljen pred enim letom.
 
@@ -38,9 +48,9 @@ Projekt je bil nazadnje posodobljen pred enim letom.
 
 ![GitHub contributors](https://img.shields.io/github/contributors/AnyChart/AnyChart-Android)
 
-# Primeri uporabe
+## Primeri uporabe
 
-## Tag Cloud
+### Tag Cloud
 
 ```kt
 val tagCloud = AnyChart.tagCloud()
@@ -88,7 +98,9 @@ tagCloud.data(data)
     <img src="./images/tag_cloud_2.jpg" alt="Tag Cloud" width="300"/>
 </div>
 
-## Radar
+---
+
+### Radar
 
 ```kt
 val radar = AnyChart.radar()
@@ -155,7 +167,9 @@ radar.tooltip().format("Value: {%Value}")
     <img src="./images/radar_2.jpg" alt="Tag Cloud" width="300"/>
 </div>
 
-## Quadrant
+---
+
+### Quadrant
 
 ```kt
 val quadrant = AnyChart.quadrant()
@@ -238,3 +252,5 @@ label.text("Complexity &#8594;")
 ```
 
 <img src="./images/quadrant_1.jpg" alt="Tag Cloud" width="300"/>
+
+---
